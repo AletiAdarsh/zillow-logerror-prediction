@@ -41,8 +41,6 @@ Result Interpretation & Next Steps
 zillow-logerror-prediction/
 ├── ZXTRN_HOUSING_DATA.ipynb   # Main Colab notebook
 ├── README.md                  # Project overview & instructions
-├── requirements.txt           # Python dependencies
-└── .gitignore                 # Files to ignore in Git
 
 ## Getting Started
 
@@ -59,7 +57,6 @@ GitHub account to fork or clone the repo
 
 Install Dependencies
 
-pip install -r requirements.txt
 
 ## Pipeline Breakdown
 
