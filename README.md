@@ -60,13 +60,13 @@ pip install -r requirements.txt
 
 Click the badge or open this link in your browser:
 
-https://colab.research.google.com/github/<your-username>/zillow-logerror-prediction/blob/main/ZXTRN
+### [Open in Colab](https://colab.research.google.com/github/<your-username>/zillow-logerror-prediction/blob/main/ZXTRN)
 
 Then choose “Open in playground” to make a copy and run.
 
 
 
-**Pipeline Breakdown**
+## Pipeline Breakdown
 Data Loading
 Load properties_2016.csv, properties_2017.csv, train_2016_v2.csv, train_2017.csv, and sample_submission.csv from Google Drive or your local path.
 
@@ -105,7 +105,7 @@ Use RandomizedSearchCV with 5-fold CV to tune XGBoost and LinearRegression
 
 Evaluate best models on MAE of log-error
 
-**Usage**
+## Usage
 Open the notebook in Colab.
 
 Mount your Google Drive (if needed) and adjust file paths.
@@ -116,7 +116,7 @@ Inspect the outputs, plots, and final best-model parameters.
 
 Fork or clone to experiment with additional models, features, or external data.
 
-**Contributing**
+## Contributing
 Contributions are welcome! If you’d like to:
 
 Fork the repo
@@ -129,10 +129,10 @@ Push to the branch (git push origin feature/your-feature)
 
 Open a Pull Request
 
-**License**
+## License
 This project is licensed under the Apache License. See the LICENSE file for details.
 
-**Created by Your AletiAdarsh – feel free to reach out via GitHub Issues with questions or suggestions.**
+## Created by Your AletiAdarsh – feel free to reach out via GitHub Issues with questions or suggestions.**
 
 
 Questions or suggestions? Open an issue via GitHub Issues.
