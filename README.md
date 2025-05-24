@@ -39,4 +39,26 @@ This project tackles the **Zillow Prize** challenge of predicting the **log-erro
 zillow-logerror-prediction/
 ├── ZXTRN_HOUSING_DATA.ipynb   # Main Colab notebook  
 ├── README.md                  # Project overview & instructions  
-├── requirements.txt           # Python dependencies  
+├── requirements.txt           # Python dependencies
+├── DataSet                    # DataSet's
+
+
+
+## Getting Started
+
+Prerequisites
+
+Google account for Colab
+
+GitHub account to fork or clone the repo
+
+(Optional) Local Python environment if you wish to run outside Colab
+
+ Install Dependencies
+
+pip install -r requirements.txt
+
+[Open in Colab](https://colab.research.google.com/drive/1m146SS1RsV-f_-ovs3fnVk0wstKfb_wP?usp=sharing)
+
+Click “Open in playground” to make a copy and run.
+
