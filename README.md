@@ -2,44 +2,26 @@ Zillow Log-Error Prediction
 
 A Colab-based pipeline for predicting Zillow’s Zestimate log-error using EDA, feature engineering, and hyperparameter-tuned models (XGBoost & LinearRegression).
 
-Open in Colab
+**Table of Contents**
+- [**Project Overview**](#project-overview)
+- [**Repository Structure**](#repository-structure)
+- [**Getting Started**](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install Dependencies](#install-dependencies)
+- [**Pipeline Breakdown**](#pipeline-breakdown)
+  - [Data Loading](#data-loading)
+  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+  - [Data Cleaning](#data-cleaning)
+  - [Dataset Comparison](#dataset-comparison)
+  - [Feature Engineering](#feature-engineering)
+  - [Modeling & Tuning](#modeling-tuning)
+- [**Usage**](#usage)
+- [**Contributing**](#contributing)
+- [**License**](#license)
+- [**Contact**](#contact)
 
-Table of Contents
-
-Project Overview
-
-Repository Structure
-
-Getting Started
-
-Prerequisites
-
-Install Dependencies
-
-Pipeline Breakdown
-
-Data Loading
-
-Exploratory Data Analysis (EDA)
-
-Data Cleaning
-
-Dataset Comparison
-
-Feature Engineering
-
-Modeling & Tuning
-
-Usage
-
-Contributing
-
-License
-
-Contact
-
-Project Overview
-
+  ## Project Overview
+  
 This project tackles the Zillow Prize challenge of predicting the log-error in Zillow’s home-value estimates (Zestimates). It runs entirely in Google Colab and demonstrates:
 
 Data Loading & Inspection
@@ -54,7 +36,7 @@ Model Training & Hyperparameter Tuning
 
 Result Interpretation & Next Steps
 
-Repository Structure
+## Repository Structure
 
 zillow-logerror-prediction/
 ├── ZXTRN_HOUSING_DATA.ipynb   # Main Colab notebook
@@ -62,8 +44,9 @@ zillow-logerror-prediction/
 ├── requirements.txt           # Python dependencies
 └── .gitignore                 # Files to ignore in Git
 
-Getting Started
+## Getting Started
 
+### Prerequisites
 Prerequisites
 
 Google account for Colab
@@ -72,55 +55,29 @@ GitHub account to fork or clone the repo
 
 (Optional) Local Python environment if you wish to run outside Colab
 
+### Install Dependencies
+
 Install Dependencies
 
 pip install -r requirements.txt
 
-Pipeline Breakdown
+## Pipeline Breakdown
 
-Data Loading
+### Data Loading
 
-Load properties_2016.csv, properties_2017.csv, train_2016_v2.csv, train_2017.csv, and sample_submission.csv.
+### Exploratory Data Analysis (EDA)
 
-Exploratory Data Analysis (EDA)
+### Data Cleaning
 
-Print shapes & dtypes
+### Dataset Comparison
 
-List & plot missing-value percentages
+### Feature Engineering
 
-Plot histograms of all numeric features
+### Modeling & Tuning
 
-Data Cleaning
+## Usage
 
-Drop columns with >80% missing
-
-Dataset Comparison
-
-Compare schema of shared vs. unique columns
-
-Compare summary statistics of common features
-
-Check parcelid consistency
-
-Feature Engineering
-
-Log-transform skewed variables
-
-Cap/remove extreme outliers
-
-Encode categorical codes
-
-Modeling & Tuning
-
-Split features (X) and target (log-error)
-
-Use RandomizedSearchCV (5-fold) to tune XGBoost & LinearRegression
-
-Evaluate best models using Mean Absolute Error (MAE)
-
-Usage
-
-Open the notebook in Colab.
+Open the notebook in Colab. [Open in Colab](https://colab.research.google.com/drive/1m146SS1RsV-f_-ovs3fnVk0wstKfb_wP?usp=sharing)
 
 Mount Google Drive (if needed) and adjust file paths.
 
@@ -130,7 +87,7 @@ Inspect outputs & best-model parameters.
 
 Fork or clone to extend.
 
-Contributing
+## Contributing
 
 Contributions welcome!
 
@@ -142,10 +99,12 @@ Commit your changes: git commit -m 'Add feature: description'
 
 Push and open a pull request
 
-License
+
+## License
 
 This project is licensed under the Apache License 2.0.
 
-Contact
+## Contact
 
 Created by AletiAdarsh.Questions or suggestions? Open an issue via GitHub Issues.
+
